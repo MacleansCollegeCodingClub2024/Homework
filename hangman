@@ -1,9 +1,7 @@
 import random
 
 def main():
-    welcome = ['Welcome to Hangman! A word will be chosen at random and',
-               'you must try to guess the word correctly letter by letter',
-               'before you run out of attempts. Good luck!'
+    welcome = ['Welcome to Hangman! i will give you a random word and if you fail then skill issue hahahahahhahahaaaaaaaaaa'
                ]
 
     for line in welcome:
