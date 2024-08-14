@@ -1,7 +1,7 @@
 import random
 
 def main():
-    welcome = ['Welcome to Hangman! i will give you a random word and if you fail then skill issue hahahahahhahahaaaaaaaaaa'
+    welcome = ['Welcome to Hangman! i will give you a random word and if you fail then skill issue hahahahahhahahaaaaaaaaaa. also remember if you fail then the man dies'
                ]
 
     for line in welcome:
