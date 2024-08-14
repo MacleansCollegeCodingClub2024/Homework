@@ -17,7 +17,7 @@ def main():
         words = ["hangman", "chairs", "backpack", "bodywash", "clothing",
                  "computer", "python", "program", "glasses", "sweatshirt",
                  "sweatpants", "mattress", "friends", "clocks", "biology",
-                 "algebra", "suitcase", "knives", "ninjas", "shampoo", "sigma"
+                 "algebra", "suitcase", "knives", "ninjas", "shampoo", "sigma", "brainrot", "skibidi", "cool", "gun", "river", "cat"
                  ]
 
         chosen_word = random.choice(words).lower()
@@ -177,13 +177,13 @@ def main():
                 continue                
             else: 
                 if not player_guess.isalpha(): 
-                    print("That is not a letter. Please try again.")
+                    print("That is not a letter. Please try again. Or i will sad")
                     continue
                 elif len(player_guess) > 1: 
-                    print("That is more than one letter. Please try again.")
+                    print("ONE LETTER AT A TIIIMMMEEEEEEEEEEEEEEE")
                     continue
                 elif player_guess in guessed_letters: 
-                    print("You have already guessed that letter. Please try again.")
+                    print("You already guessed this letter. Stop being bamboozled")
                     continue
                 else:
                     pass
