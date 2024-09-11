@@ -9,7 +9,7 @@ def monkey_encounter():
     correct_fruits = fruits()
     attempts = 3  
     while attempts > 0:
-        user_fruits = input("Guess five fruits: ").split()
+        user_fruits = input("Guess five fruits (no commas): ").split()
         if set(user_fruits) == set(correct_fruits):
             print("You've appeased the monkey! Keep going.")
             return True
@@ -45,7 +45,7 @@ def password_puzzle():
     return False
 
 def main():
-    print("Welcome to the forest (UNLIKE the actual game). You will have to ")
+    print("Welcome to The Forest (UNLIKE the actual game). You will have to ")
 
     if monkey_encounter() and tiger_crossing() and password_puzzle():
         print("Congratulations! You've completed the treasure hunt. Now leave me a 5 star review!!")
