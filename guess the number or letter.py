@@ -1,4 +1,4 @@
-print("Hello men and women and any othe gender. WELCOME TO MY SHOW- I mean welcome to my")
+print("Hello men and women and any other gender. WELCOME TO MY SHOW- I mean welcome to my random guessing game")
 import random
 
 def guess_the_number():
