@@ -13,7 +13,7 @@ def guess_the_number():
     funny += 1
 
     if len(guess) != 1 or not guess.isalpha():
-      print("Invalid input. Please enter a single letter.")
+      print("Invalid input >:( Please enter a single letter. ÆÆÆÆÆÆÆÆ ")
       continue
 
     funny = ord(guess) - ord('a') + 1
